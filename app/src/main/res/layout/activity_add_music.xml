@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB92C7ED"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Add_music">
+
+
+    <EditText
+        android:id="@+id/SongTitle_editText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Song Title" />
+
+    <EditText
+        android:id="@+id/ArtistName_editText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Artist Name" />
+
+    <EditText
+        android:id="@+id/Rating_editText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Rating (from 1 - 5)" />
+
+    <EditText
+        android:id="@+id/Comments_editText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Comments" />
+</LinearLayout>
